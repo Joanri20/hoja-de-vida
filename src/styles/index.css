@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header-footer {
+    @apply p-4 bg-gradient-to-r from-[#23867f] to-[#c0e4cb];
+    filter: drop-shadow(1px 1px 2px #000);
+}
+
+img{
+    width: 100px;
+    border-radius: 16px;
+   filter: drop-shadow(3px 3px 3px #000);
+
+}
+
+.icons-style{
+    @apply text-5xl text-black drop-shadow-[1px_2px_.6px_rgba(0,0,0,.3)] md:text-6xl;
+}
+
+.title-style{
+    @apply text-2xl font-extrabold drop-shadow-[1px_2px_.6px_rgba(0,0,0,.5)] md:text-3xl;
+}
+
+.info-style{
+    @apply text-2xl md:text-3xl;
+}
+
+.text-description{
+    @apply p-2 text-center rounded-lg drop-shadow-[2px_2px_2px_rgba(0,0,0,1)] bg-slate-200 min-w-[150px] max-w-[150px] align-baseline md:min-w-[230px] md:text-2xl;
+}
+
+.div-info-style{
+    @apply flex p-3 py-1 gap-4 overflow-x-scroll items-center md:justify-center;
+}
+
